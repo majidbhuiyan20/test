@@ -1,0 +1,16 @@
+              ======================Git Branch===============
+
+$ git branch Step-9
+$ git branch
+$ git checkout Step-9
+=============================Git Add=================================
+
+$ git add .
+$ git commit -m "Step 9 Completed"
+$ git push -u origin Step-9
+
+
+$ git checkout main
+
+$ git merge --no-ff Step-9 -m "Step 9 merged Completed"
+$ git push -u origin main
